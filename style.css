@@ -432,7 +432,7 @@ body {
       }
 
       input::placeholder{
-        color: white;
+        color: #42e6a4;
       }
     
        textarea{
@@ -445,11 +445,12 @@ body {
       outline:none;
      }
      textarea::placeholder{
-       color: white;
+       color: #42e6a4;
      }
-     
-      
-    
+   
+form{
+    color:#fff;
+}
       .submit{
       width: 40%;
       background: none;
@@ -490,17 +491,35 @@ body {
 
   }
 
+
+
 @media screen and (max-width:1250px){
     .container ul li{
         width:40%;
         margin-left: 10px;
          
     }
-    
+}
     .section-7{
-        margin top:50px;
+        margin top:50px;height: 450px;
     }
     
     .section-7 p iframe{
         padding-left: 50px;
     }
+    
+    footer{
+    background-color: #fff;
+    color:#000;
+    font-size:20px;
+    padding:10px;
+}
+
+.section-8{
+    bottom:0;
+    padding-top: 60px;
+    height: auto;
+}
+
+
+    
